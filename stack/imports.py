@@ -18,5 +18,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import inflection
 
-from labs.utilities.version_1.base import *
-from labs.utilities.version_1.types import *
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.datasets import make_moons, make_circles, make_classification
+from sklearn.svm import SVC
+
+from pickle import dump, load
+
+
+# from labs.utilities.version_1.base import *
+# from labs.utilities.version_1.types import *

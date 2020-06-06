@@ -2,9 +2,15 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"load_if_present": "00_demo_model.ipynb",
+         "dump_if_path": "00_demo_model.ipynb",
+         "get_scaler": "00_demo_model.ipynb",
+         "generate_data": "00_demo_model.ipynb",
+         "split_data": "00_demo_model.ipynb",
+         "train_model": "00_demo_model.ipynb",
+         "predict": "00_demo_model.ipynb"}
 
-modules = []
+modules = ["demo/version_1.py"]
 
 doc_url = "https://davidrichards.github.io/stack/"
 

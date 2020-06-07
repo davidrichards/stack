@@ -8,7 +8,8 @@ index = {"load_if_present": "00_demo_model.ipynb",
          "generate_data": "00_demo_model.ipynb",
          "split_data": "00_demo_model.ipynb",
          "train_model": "00_demo_model.ipynb",
-         "predict": "00_demo_model.ipynb"}
+         "predict": "00_demo_model.ipynb",
+         "data_root": "00_demo_model.ipynb"}
 
 modules = ["demo/version_1.py"]
 

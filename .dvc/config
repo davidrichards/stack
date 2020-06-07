@@ -1,0 +1,4 @@
+[core]
+    remote = fastai_data
+['remote "fastai_data"']
+    url = /Users/davidrichards/.fastai/data

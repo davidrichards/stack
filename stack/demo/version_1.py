@@ -49,13 +49,13 @@ def train_model(X_train, y_train, path=None):
     return clf
 
 def predict(params):
-    root = Path('../tmp')
+    root = Path('stack/tmp')
     scaler_path = root/'scaler.pkl'
     clf_path = root/'clf.pkl'
     clf = load_if_present(clf_path)
     scaler = load_if_present(scaler_path)
     params = np.asarray(params).reshape(1, -1)
     X = scaler.transform(params)
-    choice = clf.predict(X)[0]
-    probabilities = clf.predict_proba(X)[0]
+    choice = int(clf.predict(X)[0])
+    probabilities = clf.predict_proba(X)[0].tolist()
     return choice, probabilities

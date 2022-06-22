@@ -2,7 +2,7 @@ flask
 gunicorn
 
 configobj==5.0.6
-numpy==1.18.1
+numpy==1.22.0
 fastcore==0.1.16
 seaborn==0.10.0
 inflection==0.3.1
